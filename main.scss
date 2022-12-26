@@ -1,0 +1,8 @@
+@for $i from 1 through 5{
+  .box:nth-child(#{$i}){
+    width: 100px * $i;
+    height: 100px;
+    background-color: green;
+    margin-bottom: 50px;
+  }
+}
